@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 06</title>
+</head>
+<body>
+    <!-- Ler o ano atual e o ano de nascimento de uma pessoa. Escrever uma mensagem que diga se ela poderá ou não votar este ano (não é necessário considerar o mês em que a pessoa nasceu). 
+    //* Explicação do Prof, porém rever
+    var ano = parseInt(prompt("Em que ano você nasceu?"))
+    var anoAtual = 2023;
+    var anoNasc = 1988
+    var idade = anoAtual - anoNasc;
+    if(idade >=16){
+        alert("Voce pode votar")
+    } else {
+        alert("Você não pode votar")
+    }
+-->
+
+<script>    
+
+    var ano = parseInt(prompt("Em que ano você nasceu?"))
+    if(2023 - ano < 18){
+    console.log("Menor de idade. Você não pode votar.")
+    } else {
+    console.log("Maior de idade. Você pode votar.")
+    }
+    </script>
+
+</body>
+</html>

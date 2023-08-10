@@ -1,0 +1,18 @@
+body
+<h1
+
+h1{background-color: green}
+
+
+
+
+div {
+    width: 100px;
+    height: 150px;
+    background: red;
+    transition: width 2s;
+}
+ 
+div:hover{
+    width: 400px;
+}

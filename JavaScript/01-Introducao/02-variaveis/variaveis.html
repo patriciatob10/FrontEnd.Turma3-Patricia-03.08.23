@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>02 - variaveis</title>
+</head>
+<body>
+
+    <button>Clique em mim...</button>
+  
+    <script>
+        //var nomeDaVariável = 
+          var button = document.querySelector('button')
+          button.onclick = function(){
+            var nome = prompt('Qual o seu nome?');
+            var idade = prompt('Informe a sua idade');
+            
+            
+              alert('Olá ' + nome + ' Prazer em conhecê-lo(a) você tem  - ' + idade +' anos');
+            }
+
+        //javascript é fracamente tipado
+        var nomeDoAluno = 'Patricia'; // variável do tipo String
+        var turmaDoAluno = 1001; // variável do tipo int
+        var mensalidade = 456.98; // variavel do tipo decimal/float/double
+        var estouVivo = true; //Variavel do tipo Boolen tru false
+        
+        alert(nomeDoAluno + ' - '+turmaDoAluno)
+
+        nomeDoAluno= 99999999
+        alert(nomeDoAluno + ' - '+turmaDoAluno)
+    </script>
+    
+</body>
+</html>

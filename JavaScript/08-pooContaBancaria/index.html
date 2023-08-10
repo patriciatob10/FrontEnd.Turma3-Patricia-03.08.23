@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conta Corrente</title>
+    <script src="./js/ContaBancaria.js"></script>
+</head>
+<body>
+    <script>
+        c1 = new ContaBancaria('Patricia',5566,3344);
+        c2 = new ContaBancaria('Sofia',3344,8823);
+
+        console.log("Titular: " + c1.titular + " - Saldo: "+ c1.saldo);
+        console.log("-----------------------------------")
+                    
+        c1.depositar(500);
+        console.log("Saldo: " + c1.saldo);
+        //
+        c1.sacar(1500);
+        console.log("Saldo: " + c1.saldo);
+
+        //comando para dar espaço entre as linhas
+        console.log("            ")
+
+        console.log("Titular: " + c2.titular + " - saldo: "+ c2.saldo);  
+        console.log("-----------------------------------")
+
+        c2.depositar(200);
+        console.log("Saldo: " + c2.saldo);
+        //
+        c2.sacar(100);
+        console.log("Saldo: " + c2.saldo);
+
+</script>
+    
+</body>
+</html>

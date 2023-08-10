@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 07</title>
+</head>
+<body>
+    <p id="resultado"></p>
+    <script>
+        var idade = 35;
+        var meses = idade * 12;
+        var dias = idade * 365
+        document.getElementById('resultado')
+        .innerHTML = 'anos de vida: ' + idade +
+        '<br> meses de vida: ' + meses +
+        '<br> Dias de vida: ' + dias
+        
+        var preco = 1000;
+        var desconto = 10;
+
+        var valorProduto =  preco - (desconto / 100) *preco;
+        // ou também chega no resultado var valorProduto = (preco / 100) * - desconto + (preco);
+        console.log(valorProduto)        
+        
+    </script>
+    
+</body>
+</html>
+

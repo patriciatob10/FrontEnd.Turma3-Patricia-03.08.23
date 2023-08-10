@@ -1,0 +1,36 @@
+body{
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    background-color: pink;
+}
+ 
+h1{
+background-color: red;
+    color: yellow;
+
+}
+a{
+    /* solid dotted dashed*/
+    border: solid 2px red;
+
+    text-decoration: none;
+    background-color: #468284 ;
+    color:white;
+
+    
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+
+
+
+}
+a:hover{
+    background-color:blue;
+    color:yellow;
+}
+nav{
+
+} 

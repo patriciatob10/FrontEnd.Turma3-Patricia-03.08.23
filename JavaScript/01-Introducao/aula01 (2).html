@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01-Introdução Javascript</title>
+    <script src="meuscript.js"></script>
+</head>
+<body>
+    <p id="p1">Olá Mundo Javascript</p> 
+
+    <button type="button" onclick="document.getElementById('p1').innerHTML = 'Me chamo Patricia e estou estudando JS'">Cliquem em mim</button>
+   <hr>
+   <h1 id="p2">Aula de Javascript</h1> 
+    <button type="button" onclick="document.getElementById('p2').innertHTML = 'H1 alterado'">Altere o H1</button>
+
+    <hr>
+<p id="p3"></p>
+<script>
+    document.getElementById("p3").innerHTML ="Carregando automaticamente o texto"
+</script>
+
+   <hr>
+   <button type="button" onclick="document.getElementById('Kaspper').innertHTML= 'Kaspper'">Exibe Kaspper</button>
+   <button type="button" onclick="document.getElementById('fs').innertHTML='fs'">Exibe FullStack</button>
+   <button>Exibe Java Web</button>
+
+   <p id="Kaspper"></p>
+   <p id="fs"></p>
+   <p id="jee"></p>
+
+<hr>
+<p id="exibirdata"></p>
+<script>
+const d = new Date();
+document.getElementById('exibirdata').innerHTML = d.getTime();
+</script>
+
+<hr>
+
+</body>
+</html>

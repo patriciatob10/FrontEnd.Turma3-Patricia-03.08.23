@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 04</title>
+</head>
+<body>
+     <!--As maçãs custam R$ 1,30 cada se forem compradas menos de uma dúzia, e R$ 1,00 se forem compradas pelo menos 12. Escreva um programa que leia o número de maçãs compradas, calcule e escreva o custo total da compra.-->
+     
+     <script> 
+            
+        var qtd = parseFloat(prompt('Digite a quantidade: '))
+        var total = 0;
+        if(qtd <12) {
+            total = qtd * 1.3;
+            alert('Valor total: ' + total)
+        } else {
+            total = qtd * 1
+            alert('Valor total: ' + total)
+        }
+       
+    </script>
+    
+</body>
+</html>

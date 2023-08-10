@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>03 - Comando Condicional IF</title>
+</head>
+<body>
+    <script>
+        /*Comando Condicional IF - Faz um desvio no código
+          if (teste-Lógico) {
+              código se o teste for verdadeiro
+          }
+
+          if (teste-lógico){
+              código se o teste for verdadeiro
+         } else {
+            código se o teste for falso
+         }
+
+        */
+       // a variavel idade recebe 19
+       var idade = prompt('Digite a Idade do Convidado');
+       if (idade>=18){
+               console.log('Maior de Idade - pode Entrar');
+        } else{  //else significa "se não", reduzimos o código
+                console.log('Menor de idade - Vai para Disney');
+        }
+
+        var beneficiario = prompt('Digite o nome do beneficiário:')
+        var provaDeVida = 'não' ; //Qual o Tipo? boolean
+        
+        var confirmar = prompt('Vivo?' )
+
+     
+        if (confirmar == 'sim'){ // sim não é igual a Sim
+            console.log('beneficio Liberado Pode Pagar ao sr(a)' + beneficiario)
+         } else {
+            console.log('Beneficio Suspenso - Não Pagar')
+         }
+
+
+         </script>
+    
+</body>
+</html>
